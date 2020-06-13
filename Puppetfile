@@ -77,16 +77,16 @@ mod 'puppet-selinux', '3.1.0'
 
 # Demo modules
 mod 'secteam_cis',
-    git:            'https://github.com/puppetlabs-seteam/secteam_cis.git',
+    git:            'https://github.com/puppetlabs/se_secteam_cis.git',
     branch:         :control_branch,
     default_branch: default_branch('production')
 
 mod 'infrateam_core',
-    git:            'https://github.com/puppetlabs-seteam/infrateam_core.git',
+    git:            'https://github.com/puppetlabs/se_infrateam_core.git',
     branch:         :control_branch,
     default_branch: default_branch('production')
 
 mod 'appteam_basichttp',
-    git:            'https://github.com/puppetlabs-seteam/appteam_basichttp.git',
+    git:            'https://github.com/puppetlabs/se_appteam_basichttp.git',
     branch:         :control_branch,
     default_branch: default_branch('production')
