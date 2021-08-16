@@ -41,6 +41,7 @@ mod 'puppetlabs-mysql', '12.0.0'
 mod 'puppetlabs-ntp', '9.0.1'
 mod 'puppetlabs-package', '2.0.0'
 mod 'puppetlabs-powershell', '5.0.0'
+mod 'puppetlabs-pwshlib', '0.10.0'
 mod 'puppetlabs-puppet_authorization', '0.5.1'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
 mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
@@ -68,16 +69,16 @@ mod 'puppet-selinux', '3.4.0'
 
 # Demo modules
 mod 'secteam_cis',
-    git:            'https://gitlab/root/se_secteam_cis.git',
+    git:            'http://gitlab/root/se_secteam_cis.git',
     branch:         :control_branch,
     default_branch: default_branch('master')
 
 mod 'infrateam_core',
-    git:            'https://gitlab/root/se_infrateam_core.git',
+    git:            'http://gitlab/root/se_infrateam_core.git',
     branch:         :control_branch,
     default_branch: default_branch('master')
 
 mod 'appteam_basichttp',
-    git:            'https://gitlab/root/se_appteam_basichttp.git',
+    git:            'http://gitlab/root/se_appteam_basichttp.git',
     branch:         :control_branch,
     default_branch: default_branch('master')
