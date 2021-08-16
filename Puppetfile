@@ -62,10 +62,14 @@ mod 'puppetlabs-vcsrepo', '5.0.0'
 mod 'puppetlabs-servicenow_change_requests', '0.3.0'
 mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 
+mod 'puppet-archive', '5.0.0'
 mod 'puppet-yum', '5.1.0'
 mod 'saz-sudo', '7.0.0'
 mod 'saz-limits', '3.0.4'
 mod 'puppet-selinux', '3.4.0'
+mod 'WhatsARanjit-node_manager', '0.7.5'
+mod 'puppet-telegraf', '4.1.0'
+mod 'puppet-grafana', '8.0.0'
 
 # Demo modules
 mod 'secteam_cis',
