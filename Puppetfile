@@ -62,6 +62,8 @@ mod 'puppetlabs-transition', '0.1.3'
 mod 'puppetlabs-vcsrepo', '5.0.0'
 mod 'puppetlabs-servicenow_change_requests', '0.3.0'
 mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
+mod 'puppetlabs-servicenow_reporting_integration', '0.2.1'
+mod 'puppetlabs-ruby_task_helper', '0.6.0'
 
 mod 'puppet-archive', '5.0.0'
 mod 'puppet-yum', '5.1.0'
