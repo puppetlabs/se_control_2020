@@ -1,4 +1,4 @@
-#
+# Control Repo
 forge 'https://forge.puppet.com'
 
 def default_branch(default)
