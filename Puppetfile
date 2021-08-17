@@ -76,14 +76,14 @@ mod 'puppet-grafana', '8.0.0'
 mod 'secteam_cis',
     git:            'http://gitlab/root/se_secteam_cis.git',
     branch:         :control_branch,
-    default_branch: default_branch('master')
+    default_branch: 'master'
 
 mod 'infrateam_core',
     git:            'http://gitlab/root/se_infrateam_core.git',
     branch:         :control_branch,
-    default_branch: default_branch('master')
+    default_branch: 'master'
 
 mod 'appteam_basichttp',
     git:            'http://gitlab/root/se_appteam_basichttp.git',
     branch:         :control_branch,
-    default_branch: default_branch('master')
+    default_branch: 'master'
