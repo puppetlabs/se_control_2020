@@ -18,6 +18,7 @@ mod 'puppetlabs-apache', '6.4.0'
 mod 'puppetlabs-apt', '8.1.0'
 mod 'puppetlabs-bolt_shim', '0.3.2'
 mod 'puppetlabs-cd4pe', '3.2.1'
+mod 'puppetlabs-cd4pe_jobs', '1.5.0'
 mod 'puppetlabs-chocolatey', '6.0.1'
 mod 'puppetlabs-concat', '7.0.2'
 mod 'puppetlabs-cron_core', '1.0.5'
@@ -38,9 +39,10 @@ mod 'puppetlabs-java', '7.1.0'
 mod 'puppetlabs-mount_core', '1.0.4'
 mod 'puppetlabs-motd', '6.0.0'
 mod 'puppetlabs-mysql', '12.0.0'
-mod 'puppetlabs-ntp', '9.1.0'
+mod 'puppetlabs-ntp', '9.0.1'
 mod 'puppetlabs-package', '2.0.0'
 mod 'puppetlabs-powershell', '5.0.0'
+mod 'puppetlabs-pwshlib', '0.10.0'
 mod 'puppetlabs-puppet_authorization', '0.5.1'
 mod 'puppetlabs-puppetserver_gem', '1.1.1'
 mod 'puppetlabs-puppet_metrics_collector', '7.0.3'
@@ -61,23 +63,27 @@ mod 'puppetlabs-vcsrepo', '5.0.0'
 mod 'puppetlabs-servicenow_change_requests', '0.3.0'
 mod 'puppetlabs-servicenow_cmdb_integration', '0.2.0'
 
+mod 'puppet-archive', '5.0.0'
 mod 'puppet-yum', '5.1.0'
 mod 'saz-sudo', '7.0.0'
 mod 'saz-limits', '3.0.4'
 mod 'puppet-selinux', '3.4.0'
+mod 'WhatsARanjit-node_manager', '0.7.5'
+mod 'puppet-telegraf', '4.1.0'
+mod 'puppet-grafana', '8.0.0'
 
 # Demo modules
 mod 'secteam_cis',
-    git:            'https://github.com/root/se_secteam_cis.git',
+    git:            'http://gitlab/root/se_secteam_cis.git',
     branch:         :control_branch,
     default_branch: default_branch('master')
 
 mod 'infrateam_core',
-    git:            'https://github.com/root/se_infrateam_core.git',
+    git:            'http://gitlab/root/se_infrateam_core.git',
     branch:         :control_branch,
     default_branch: default_branch('master')
 
 mod 'appteam_basichttp',
-    git:            'https://github.com/root/se_appteam_basichttp.git',
+    git:            'http://gitlab/root/se_appteam_basichttp.git',
     branch:         :control_branch,
     default_branch: default_branch('master')
