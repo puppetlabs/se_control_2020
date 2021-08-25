@@ -1,3 +1,4 @@
+# example to manage docker and simple container
 class example::dockerhost {
 
   require 'docker'

@@ -1,3 +1,4 @@
+# example to sample full stack wordpress install
 class example::wordpress {
   include apache
   include apache::mod::php
