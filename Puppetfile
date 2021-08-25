@@ -91,7 +91,7 @@ mod 'appteam_basichttp',
     branch:         :control_branch,
     default_branch: 'master'
 
-mod 'appteam_basichttp',
+mod 'appteam_webserver',
   git:            'http://gitlab/root/se_appteam_webserver.git',
   branch:         :control_branch,
   default_branch: 'master'
