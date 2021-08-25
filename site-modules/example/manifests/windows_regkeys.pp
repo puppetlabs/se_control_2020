@@ -1,3 +1,4 @@
+# Generic reg key example with Puppet
 class example::windows_regkeys {
 
   # CUSTOM APP REG KEYS
