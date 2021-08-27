@@ -75,6 +75,7 @@ mod 'puppet-telegraf', '4.1.0'
 mod 'puppet-grafana', '8.0.0'
 mod 'ayohrling-local_security_policy', '0.8.1'
 mod 'puppet-windowsfeature', '3.2.2'
+mod 'puppet-windows_firewall', '4.0.0'
 
 # Demo modules
 mod 'secteam_cis',
